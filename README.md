@@ -1,32 +1,15 @@
-# Dynamiq 🛒
+﻿# LPNU Library – EF Core Project
 
-Full-stack e-commerce application built with **.NET 8 (C#)** and **React + TypeScript**.  
-The project demonstrates clean architecture, secure payments, and modern UI for an online furniture store.
+## 📌 How to apply migrations (update SQL database)
 
-## 📸 Screenshots
+### 1. Add a migration
 
-![Main Page](https://res.cloudinary.com/davgpgmxf/image/upload/v1761324813/image_rnd3hq.png)  
-![Product Page](https://res.cloudinary.com/davgpgmxf/image/upload/v1761324854/image_1_sm3muo.png)  
-👉 [Live Demo](https://dynamiq-nazareta.fun)
+### 2. Update the database
 
-## ✨ Key Features
+### 3. If you modified models and need to refresh DB
 
-- Product catalog with categories and filters
-- Shopping cart with discounts and coupons
-- Stripe payments: one-time and subscriptions (webhooks included)
-- Secure authentication (JWT & Google OIDC)
-- Email confirmation and account management
-- Search suggestions and product recommendations
+### 4. To remove the last migration
 
-## 🛠 Tech Stack
-
-- **Backend:** .NET 8, ASP.NET Core, EF Core, MediatR, FluentValidation
-- **Frontend:** React, TypeScript, SCSS, Bootstrap
-- **Database:** SQL Server
-- **Other:** Stripe API, GitHub Actions (CI/CD)
-
-## 🏛 Architecture
-
-Built using **Domain-Driven Design + Clean Architecture + CQRS**.  
-Core business logic is isolated in domain layer, with clear separation of concerns.  
-Integration tests run in isolated SQL containers with Testcontainers.
+## ✔ Requirements
+- .NET 7+
+- EF Core Tools
